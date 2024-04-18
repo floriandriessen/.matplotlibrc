@@ -1,0 +1,8 @@
+# Set default figure size
+figure.figsize : 3.543, 2.189
+
+# Set font size
+font.size : 8
+
+# Set legend font size
+legend.fontsize : 8

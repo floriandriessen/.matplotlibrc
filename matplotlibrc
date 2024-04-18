@@ -1,0 +1,7 @@
+# Set default plot colours to be colourblind friendly
+# from Paul Tot's website: https://personal.sron.nl/~pault/
+
+backend: TkAgg
+
+# Set color cycle: blue, red (pinkish), green, yellow, cyan, purple, grey
+axes.prop_cycle : cycler('color', ['4477AA', 'EE6677', '228833', 'CCBB44', '66CCEE', 'AA3377', 'BBBBBB'])

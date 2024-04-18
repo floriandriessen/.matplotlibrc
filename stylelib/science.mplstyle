@@ -1,0 +1,68 @@
+# Original version : https://github.com/garrettj403/SciencePlots
+# Modified by Flo
+
+#========
+# FIGURE
+#========
+
+# Set default figure size based on golden ratio, for journals the specific
+# settings should be called (sometimes needed to extra tweak in user script)
+figure.figsize : 3.5, 2.625
+
+#============
+# AXES TICKS
+#============
+
+# Set x axis
+xtick.direction     : in
+xtick.major.size    : 3.5
+xtick.major.width   : 0.6
+xtick.minor.size    : 2.0
+xtick.minor.width   : 0.6
+xtick.minor.visible : True
+xtick.top           : True
+
+# Set y axis
+ytick.direction     : in
+ytick.major.size    : 3.5
+ytick.major.width   : 0.6
+ytick.minor.size    : 2.0
+ytick.minor.width   : 0.6
+ytick.minor.visible : True
+ytick.right         : True
+
+# Set line widths
+axes.linewidth  : 0.8
+grid.linewidth  : 0.5
+lines.linewidth : 1.
+
+#========
+# LEGEND
+#========
+
+# Remove legend frame
+legend.frameon  : False
+legend.fontsize : medium
+
+#===============
+# SAVING FIGURE
+#===============
+
+# Always save as 'tight'
+savefig.bbox       : tight
+
+# Padding to be used when bbox is set to 'tight'
+savefig.pad_inches : 0.05
+
+#==============
+# FONT CONFIGS
+#==============
+
+# Use serif fonts
+font.serif       : Times New Roman
+font.family      : serif
+mathtext.fontset : dejavuserif
+
+# Use LaTeX for math formatting
+text.usetex         : True
+text.latex.preamble : \usepackage{amsmath}
